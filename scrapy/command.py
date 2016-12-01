@@ -6,4 +6,4 @@ warnings.warn("Module `scrapy.command` is deprecated, "
               "use `scrapy.commands` instead",
               ScrapyDeprecationWarning, stacklevel=2)
 
-from scrapy.commands import *  # isort:skip
+from scrapy.commands import *

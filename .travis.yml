@@ -1,11 +1,11 @@
 language: python
 python: 3.5
 sudo: false
-branches:
-  only:
-    - master
-    - /^\d\.\d+$/
-    - /^\d\.\d+\.\d+(rc\d+|dev\d+)?$/
+#branches:
+#  only:
+#    - master
+#    - /^\d\.\d+$/
+#    - /^\d\.\d+\.\d+(rc\d+|dev\d+)?$/
 env:
  - TOXENV=py27
  - TOXENV=jessie
